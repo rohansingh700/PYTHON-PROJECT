@@ -1,0 +1,147 @@
+# 🧼 Handwashing & Death Rate Analysis
+
+## 📌 Project Overview
+
+This project analyzes the impact of handwashing on death rates, inspired by historical medical data. It demonstrates how a simple hygiene practice significantly reduced mortality rates in hospitals.
+
+The analysis highlights the importance of data in uncovering life-saving insights.
+
+---
+
+## 🎯 Objective
+
+* Analyze death rates before and after handwashing was introduced
+* Understand trends in mortality over time
+* Visualize the effectiveness of hygiene practices
+* Derive meaningful insights from historical data
+
+---
+
+## 📂 Dataset
+
+The dataset includes:
+
+* Number of births
+* Number of deaths
+* Death rate (%)
+* Timeline (monthly/yearly data)
+
+---
+
+## ⚙️ Technologies Used
+
+* Python 🐍
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+
+---
+
+## 🔍 Steps Performed
+
+### 1. Data Loading
+
+* Imported dataset into Pandas DataFrame
+* Checked structure and cleaned data
+
+### 2. Data Cleaning
+
+* Handled missing/null values
+* Converted date columns into proper datetime format
+
+### 3. Exploratory Data Analysis (EDA)
+
+* Calculated death rates
+* Compared trends before and after handwashing
+* Grouped data for better analysis
+
+### 4. Data Visualization
+
+* 📈 Line Plot → Death rate over time
+* 📊 Bar Chart → Before vs After comparison
+* 📉 Trend Analysis → Impact visualization
+
+---
+
+## 📊 Key Insights
+
+* Introduction of handwashing drastically reduced death rates
+* Clear downward trend in mortality after hygiene practices
+* Data strongly supports the importance of sanitation in healthcare
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone the repository:
+
+```bash id="n2a7wd"
+git clone https://github.com/your-username/handwashing-death-analysis.git
+```
+
+2. Navigate to the folder:
+
+```bash id="0lw1qv"
+cd handwashing-death-analysis
+```
+
+3. Install dependencies:
+
+```bash id="p70d04"
+pip install pandas numpy matplotlib seaborn
+```
+
+4. Run the notebook:
+
+```bash id="5hpln6"
+jupyter notebook deathanalysis(handwash).ipynb
+```
+
+---
+
+## 📁 Project Structure
+
+```id="1px7z5"
+handwashing-death-analysis/
+│
+├── deathanalysis(handwash).ipynb
+├── dataset.csv
+└── README.md
+```
+
+---
+
+## 🚀 Future Improvements
+
+* Apply statistical testing for significance
+* Build predictive models
+* Create an interactive dashboard (Power BI / Tableau)
+* Add more healthcare datasets for comparison
+
+---
+
+## 📜 Historical Context
+
+This analysis is inspired by the work of **Ignaz Semmelweis**, who discovered that handwashing significantly reduced deaths in hospitals.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork and improve the project.
+
+---
+
+## 📜 License
+
+This project is open-source under the MIT License.
+
+---
+
+## 🙌 Acknowledgment
+
+Data used for educational and analytical purposes.
+
+---
